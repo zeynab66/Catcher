@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env           # Exclude .env file
+
+# Compiled output
+build/
+dist/
+out/
+build-debug/
+.build/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.esproj
+*.komodotools
+*.kpf
+*.sw[op]
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Config files
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
